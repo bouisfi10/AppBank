@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item android:title="Mes Comptes">
+            <menu>
+                <item  android:id="@+id/cheques"
+                       android:title="Mes Compte cheques"
+                       android:icon="@drawable/card"/>
+                <item android:id="@+id/epargne"
+                      android:title="Mes Compte d'epargne"
+                      android:icon="@drawable/card"  />
+                <item android:id="@+id/etranger"
+                    android:title="Mes Compte a l'etranger"
+                    android:icon="@drawable/card"  />
+            </menu>
+
+        </item>
+
+        <item android:title="Ma Relation Banque">
+            <menu>
+                <item android:id="@+id/relationnel"
+                    android:title="Mon cercle relationel"
+                    android:icon="@drawable/menu"/>
+
+                <item android:id="@+id/cartes"
+                    android:title="Mes cartes"
+                    android:icon="@drawable/card"/>
+
+                <item android:id="@+id/prets"
+                    android:title="Moes Prets"
+                    android:icon="@drawable/menu"/>
+
+                <item android:id="@+id/messagerie"
+                    android:title="Messagerie"
+                    android:icon="@drawable/menu"/>
+            </menu>
+        </item>
+        <item android:title="Mes dotation">
+            <menu>
+                <item android:id="@+id/touristique"
+                    android:title="Mes dotations touristique"
+                    android:icon="@drawable/plane"/>
+                <item android:id="@+id/Ecommerce"
+                    android:title="Mes dotations E-commerce"
+                    android:icon="@drawable/commerce"/>
+            </menu>
+        </item>
+    </group>
+
+</menu>
